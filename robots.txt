@@ -67,7 +67,6 @@ Disallow: /
 User-agent: ImagesiftBot
 Disallow: /
 
-# All other crawlers may index normal content, but AI-training use is not
-# permitted per the notice linked above.
+# All other crawlers are also disallowed from the entire host.
 User-agent: *
-Allow: /
+Disallow: /
